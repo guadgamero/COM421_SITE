@@ -8,12 +8,14 @@ body{
   margin-left: auto;
   margin-right: auto;
   background-color: #f4c7e1;
+  position: relative;
 }
 
 .find{
   margin: auto;
   text-align: center;
   float: none;
+  font-family: 
 }
 
 .time{
@@ -21,11 +23,21 @@ body{
   float: left;
 }
 
-section{
+h2{
+  text-align: center;
+}
+
+section h3{
   float: right;
+  display: block;
+}
+
+section p{
+  float: right;
+  display: block;
+  padding-top: 50px;
 }
 
 article{
-  position: absolute;
   bottom: 1px;
 }
