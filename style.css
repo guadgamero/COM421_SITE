@@ -1,0 +1,30 @@
+nav ul li {
+	display: inline;
+  text-align: left;
+}
+
+body{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.find{
+  margin: auto;
+  text-align: center;
+  float: none;
+}
+
+.time{
+  color: navy;
+  float: left;
+}
+
+section{
+  float: right;
+}
+
+article{
+  position: absolute;
+  bottom: 1px;
+}
