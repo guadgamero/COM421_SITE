@@ -15,7 +15,12 @@ body{
   margin: auto;
   text-align: center;
   float: none;
-  font-family: 
+  font-family: 'Bitter', serif;
+  background-color: #CCE6FF;
+  border-radius: 10px;
+  width: 400px;
+  margin-top: 25px;
+  height: 160px;
 }
 
 .time{
@@ -33,9 +38,9 @@ section h3{
 }
 
 section p{
-  float: right;
+  /*float: right;*/
   display: block;
-  padding-top: 50px;
+  /*padding-top: 50px;*/
 }
 
 article{
