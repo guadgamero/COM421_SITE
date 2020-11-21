@@ -13,19 +13,26 @@ body{
 
 .find{
   margin: auto;
-  text-align: center;
-  float: none;
+  text-align: left;
   font-family: 'Bitter', serif;
   background-color: #CCE6FF;
-  border-radius: 10px;
-  width: 400px;
-  margin-top: 25px;
-  height: 160px;
+  width: 100%;
+  margin-top: 15px;
+  height: 180px;
+  padding-left: 15px;
+  padding-top: 1px;
 }
 
-.time{
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+#time{
   color: navy;
-  float: left;
+  text-align: left;
 }
 
 h2{
@@ -33,16 +40,25 @@ h2{
 }
 
 section h3{
-  float: right;
+  text-align: right;
   display: block;
 }
 
 section p{
-  /*float: right;*/
+  text-align: right;
   display: block;
-  /*padding-top: 50px;*/
+  padding-top: 0px;
 }
 
 article{
   bottom: 1px;
+}
+
+.desc ul {
+  margin-left: 50%;
+}
+
+.desc li{
+  text-align: left;
+  display: block;
 }
