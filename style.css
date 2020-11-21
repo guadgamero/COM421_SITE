@@ -3,7 +3,12 @@ nav ul li {
   text-align: left;
 }
 
+a:hover{
+  background-color: #CCE6FF;
+}
+
 body{
+  font-family: 'Arvo', serif;
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -12,9 +17,9 @@ body{
 }
 
 .find{
+  font-family: 'Nerko One', cursive;
   margin: auto;
   text-align: left;
-  font-family: 'Bitter', serif;
   background-color: #CCE6FF;
   width: 100%;
   margin-top: 15px;
@@ -24,15 +29,17 @@ body{
 }
 
 h1 {
+  font-family: 'Josefin Sans', sans-serif;
   display: block;
   font-size: 2em;
-  margin-top: 5px;
+  margin-top: 13px;
   font-weight: bold;
 }
 
 #time{
   color: navy;
   text-align: left;
+  font-family: 'Bitter', serif;
 }
 
 h2{
@@ -47,7 +54,8 @@ section h3{
 section p{
   text-align: right;
   display: block;
-  padding-top: 0px;
+  padding: 0px;
+  margin: 3px;
 }
 
 article{
@@ -61,4 +69,5 @@ article{
 .desc li{
   text-align: left;
   display: block;
+  padding: 1px;
 }
